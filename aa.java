@@ -23,7 +23,7 @@ public class Main {
 			guess = sc.nextInt();
 			// If the number is guessed
 			if (orignumber == guess) {
-				System.out.println("Congratulations!" + " You guessed the number." + "You pass in "+ i+1+ " trails.");
+				System.out.println("Congratulations!" + " You guessed the number." + "You pass in "+ (i+1)+ " trails.");
 				break;
 			}
 			else if (orignumber > guess	&& i != K - 1) 
