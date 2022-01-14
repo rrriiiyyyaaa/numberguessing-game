@@ -12,7 +12,7 @@ public class Main {
 		// Given K trials
 		int K = 5;
 		int i, guess;
- 		System.out.println(orignumber); // (for cheating)
+ 		//System.out.println(orignumber); // (for cheating)
 		System.out.println( "A number is chosen" + " between 1 to 50." + "Guess the number" + " within 5 trials.");
 		// Iterate over K(5) Trials
 		for (i = 0; i < K; i++) 
